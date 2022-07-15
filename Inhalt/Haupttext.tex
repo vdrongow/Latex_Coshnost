@@ -7,19 +7,19 @@
 \label{Strategie}
 %welcher bot mit welchen Eigenschaften macht was 
 %koop Strategie
+Dieses Kapitel behandelt die Strategie, die dem Verhalten der drei Bots zugrunde liegt. In diesem Teil wird die Idee wenig technisch und eher abstrakt erläutert. \\
+Jeder Bot hat bestimmte Eigenschaften, die in ein zuvor definiertes und teilweise aufeinander aufbauendes Verhalten resultieren. Im folgenden wird also jeder Bot mit seinen Eigenschaften und der Strategie beschrieben. 
 
 \section{Bot 0}
 \label{Bot0}
-
-- Eigenschaften:
-	- erhöht den eigenen Farbanteil
-	- ist am schnellsten
-	- immer +1 (bis ins Unendliche)
-- Strategie:
-	- geht zu eigenen Farbanteil
-	- alt. Strategie: evtl. Kreise fahren und dann bisschen zur Seite
 	
 \paragraph{Eigenschaften}
+Bot 0 erhöht den eigenen Farbanteil eines Feldes immer um eins, wenn er dieses Feld passiert. Dabei ist das Inkrementieren nicht nach oben begrenzt. Er könnte den eigenen Farwert in einem Feld also theoretisch bis ins Unendliche erhöhen. \\
+Gleichzeitig ist dieser Bot der schnellste von allen dreien. Diese Eigenschaften machen ihn sehr gut geeignet, um bereits eigene eingefärte Felder zu verstärken. 
+
+\paragraph{Strategie}
+Die Strategie ist auf die Eigenschaften des Bots angepasst. Dadurch, dass er sehr schnell ist, kann er in kürzester Zeit große Strecken auf der Spielkugel zurücklegen. Wenn ein Feld jedoch schon von einer anderen Farbe eingefärbt ist, kann dieser Bot nur bedingt etwas ausrichten. Daher bewegt er sich immer zu Bereichen, die der eigenen Farbe gehören. \\
+Auf diesen Wert kann er den Wert erhöhen und somit ist der Farbanteil dort stärker vertreten. Das bedeutet die Farbe fließt stärker auf umliegende Felder und sie bleibt auch länger auf dem Ursprungsfeld bestehen.
 
 \section{Bot 1}
 \label{Bot1}
