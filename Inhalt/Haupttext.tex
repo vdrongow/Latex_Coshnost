@@ -1,18 +1,72 @@
 
-\chapter{Einleitung und Intension}
-\label{sec:EinleitungUndIntension}
-Was möchte ich sagen?
+\chapter{Einleitung}
+\label{sec:Einleitung}
 
-\chapter{Erste Überschrift}
-\label{sec:ErsteUeberschrift}
-Hier steht der erste Text.
+%in diesem Teil sehr wenig technisch und eher abstrakt
+\chapter{Strategie}
+\label{Strategie}
+%welcher bot mit welchen Eigenschaften macht was 
+%koop Strategie
 
-\section{Erstes Unterkapitel}
-\label{sec:ErstesUnterkapitel}
-Und hier wird es schon spezifischer.
+\section{Bot 0}
+\label{Bot0}
 
+- Eigenschaften:
+	- erhöht den eigenen Farbanteil
+	- ist am schnellsten
+	- immer +1 (bis ins Unendliche)
+- Strategie:
+	- geht zu eigenen Farbanteil
+	- alt. Strategie: evtl. Kreise fahren und dann bisschen zur Seite
+	
+\paragraph{Eigenschaften}
 
-\section{Zweites Unterkapitel}
-\label{sec:ZweitesUnterkapitel}
+\section{Bot 1}
+\label{Bot1}
 
-In der Regel reichen zwei Gliederungsebenen für Graduierungsarbeiten aus.
+- Eigenschaften:
+	- setzt den eigenen Farbanteil hoch
+	- ist am langsamsten
+	- setzt immer wert auf =2
+- Strategie:
+	- sucht leere Farbfelder
+	- wenn: egal welcher Wert das Feld hat, setzt auf wert 2, dann Ziel alle Felder ausßer die eigenen
+
+\section{Bot 2}
+\label{Bot2}
+
+- Eigenschaften:
+	- löscht alle Farben inklusive der eigenen
+	- kann sich über Gräben bewegen
+- Strategie:
+	- geht zu anderen Farben
+	- verfolgt Bot 0 des besten Spielers
+	- umgeht eigene Farben und Gräben
+
+%a hier technisches Vorgehen
+\chapter{Clustering}
+
+\section{Datenstruktur}
+
+%Daten vom Server
+
+\section{Algorithmus}
+
+\subsection{Parameter}
+
+\subsection{Implementierung}
+
+\section{Multithreading}
+
+\chapter{Wege-Suche}
+%was mache ich mit den Informationen
+
+\section{Bewegung der Bots}
+
+\section{Umgang mit Hindernissen}
+
+% verschiedene bots bewegen sich unterschiedlich?
+
+\chapter{Analyse}
+
+\section{Zeit Messungen}

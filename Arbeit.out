@@ -1,7 +1,19 @@
-\BOOKMARK [0][-]{chapter.1}{Einleitung und Intension}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Erste \334berschrift}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Erstes Unterkapitel}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Zweites Unterkapitel}{chapter.2}% 4
-\BOOKMARK [0][-]{chapter*.3}{Literaturverzeichnis}{}% 5
-\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 6
-\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Strategie}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Bot 0}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Bot 1}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Bot 2}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Clustering}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Datenstruktur}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Algorithmus}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.2.1}{Parameter}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.2}{Implementierung}{section.3.2}% 10
+\BOOKMARK [1][-]{section.3.3}{Multithreading}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{Wege-Suche}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Bewegung der Bots}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Umgang mit Hindernissen}{chapter.4}% 14
+\BOOKMARK [0][-]{chapter.5}{Analyse}{}% 15
+\BOOKMARK [1][-]{section.5.1}{Zeit Messungen}{chapter.5}% 16
+\BOOKMARK [0][-]{chapter*.3}{Literaturverzeichnis}{}% 17
+\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 18
+\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 19
